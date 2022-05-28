@@ -1,0 +1,21 @@
+{
+  "name": "modulo3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:headless": "npx cypress run",
+    "cy:chrome": "npx cypress run --browser chrome --headless",
+    "cy:firefox": "npx cypress run --browser firefox --headless",
+    "cy:edge": "npx cypress run --browser edge --headless"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^6.3.1",
+    "cypress": "^9.6.0",
+    "faker": "^6.6.6"
+  }
+}
