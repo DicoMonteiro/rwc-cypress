@@ -2,8 +2,8 @@
 
 import articles from "../support/pages/articles"
 
-// especificando a execução desse context em um único browser
-context('Publicação', { browser: "electron" } , () => {
+// especificando a execução desse context em um único browser { browser: "electron" } 
+context('Publicação', () => {
     beforeEach(() => {
         cy.backgroundLogin()
     })
